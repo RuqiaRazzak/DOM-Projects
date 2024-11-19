@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+   background-image:url(./R.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+     }
+     .Clock{
+        width: 200px;
+        min-width: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgba(223, 19, 19, 0.1),
+        0px 10px 20px rgba(236, 16, 16, 0.7);
+        height: 24vh;
+        border-radius: 20px;
+        padding: 40px 20px
+        
+    
+      }
+      h1{
+        text-align: center;
+        font-size: 4.5rem;
+        font-weight: 600;
+        margin-bottom: 80px;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    
+      }
+    
+
+    h1:hover {
+      border-bottom: 3px solid white; 
+      padding-bottom: 10px; 
+    
+    }
+      #time{
+        position: relative;
+        top: 13%;
+        margin-left: 5px;
+        font-size: 4.5rem;
+        font-weight: 700;
+      }
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2rem; /* Smaller font size for small devices */
+        }
+      
+        .clock {
+          font-size: 2rem; /* Smaller font size for small devices */
+          padding: 15px 10px;
+        }
+        #time{
+            font-size: 2rem;
+        }
+      }
