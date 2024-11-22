@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 200px 50px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    display:block;
+    background-color:#190E30;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 520%;
+    height: 140%;
+}
+.game-container {
+    margin-left: auto;
+    margin-right: auto;
+   justify-content: center;
+    text-align: center;
+    background:#053a50;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(38, 223, 99, 0.2);
+    width: 90%; 
+    max-width: 500px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+input {
+    width:80%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background: #aa2626;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 100%; 
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #410d11;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #770808;
+}
+
+@media (min-width: 600px) {
+    button {
+        width: auto;
+    }
+    img{
+        width: auto;
+        height: auto;
+    }
+}
